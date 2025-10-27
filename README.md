@@ -111,11 +111,18 @@ Python 3.11 → Core implementation language
 
 ### installation and Sequence of Commands 
 python -m venv env
+
 env\Scripts\activate
+
 set GROQ_API_KEY=your api key
+
 set LANGSMITH_API_KEY=your api key
+
 pip install langgraph
+
 pip install --upgrade "langgraph-cli[inmem]"
-python react_agent.py
+
+python react_agent1.py
+
 langgraph dev
 
